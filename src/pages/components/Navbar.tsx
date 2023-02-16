@@ -50,7 +50,7 @@ export default function Navbar() {
                     href="/"
                     className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
                 >
-                Pedido de Oração
+                Oração
                 </Link>
                 </li>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
                     href="/"
                     className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
                 >
-                Agenda da Igreja
+                Agenda 
                 </Link>
                 </li>
             </ul>
