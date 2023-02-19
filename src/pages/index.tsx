@@ -7,7 +7,7 @@ import { BsInstagram, BsYoutube, BsFacebook } from 'react-icons/bs'
 import Link from "next/link";
 
 const compliments = [
-  "Bem vindo ao Site da Igreja XV de Novembro que já é bênção para guadalupe há mais de 77 anos!",
+  "Bem vindo ao Site da Igreja XV de Novembro!",
   "Abaixo terá fotos da Igreja, caso visitantes estejam interessados!",
   "Siga nossas redes sociais abaixo:",
   "Obrigado por ler até o fim! Visite nossa igreja, as informações sobre a localidade estarão na aba sobre!"
