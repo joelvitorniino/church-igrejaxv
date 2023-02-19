@@ -20,7 +20,7 @@ export default function Navbar() {
 
                 <li className="lg:mr-[1.3em] max-sm:mr-2 iphone:mr-0">
                 <Link
-                    href="/"
+                    href="/contact"
                     className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
                 >
                 Sobre
