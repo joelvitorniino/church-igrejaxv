@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       backgroundColor: {
         'black-smooth': '#333'
+      },
+      screens: {
+        'iphone': '320px'
       }
     },
   },
