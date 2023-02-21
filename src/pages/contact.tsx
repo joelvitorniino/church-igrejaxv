@@ -24,19 +24,19 @@ export default function Contact() {
           </span>
 
           <span className="flex m-1">
-            <FaInstagram size={45} className="inline" />
+            <FaInstagram size={45} className="inline iphone:w-16" />
             <Link href="https://www.instagram.com/igrejaxv/" target="_blank">
               <p className="inline ml-2 font-semibold hover:font-bold">
-                Igreja XV de Novembro - Instagram
+                Igreja XV de Novembro - <span className="iphone:ml-2">Instagram</span>
               </p>
             </Link>
           </span>
 
           <span className="flex m-1">
-            <FaYoutube size={45} className="inline" />
+            <FaYoutube size={45} className="inline iphone:w-16" />
             <Link href="https://www.youtube.com/@IgrejaXV" target="_blank">
               <p className="inline ml-2 font-semibold hover:font-bold">
-                Igreja XV de Novembro - Youtube
+                Igreja XV de Novembro - <span className="iphone:ml-2">Youtube</span>
               </p>
             </Link>
           </span>
@@ -47,7 +47,7 @@ export default function Contact() {
             <FaWhatsapp size={45} className="inline" />
             <Link href="https://wa.me/+5521975538121">
                 <p className="inline ml-2 font-semibold hover:font-bold relative top-2">
-                    Whatsapp do Pastor Gilberto.
+                    Whatsapp do Pastor <span className="iphone:ml-2">Gilberto.</span>
                 </p>
             </Link>
           </span>
