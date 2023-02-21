@@ -34,6 +34,17 @@ export default function About() {
               <p className="text-gray-800 leading-loose mb-8">
                 A Igreja XV de Novembro foi fundada em 1945. Em 2022 completamos 77 anos de existência e de bênção a Guadalupe! Atualmente o Pastor da Igreja XV de Novembro é o Carlos Gilberto Nobrega, informações sobre o contato do pastor estará na aba de contato.
               </p>
+
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">
+                Cultos:
+              </h1>
+
+              <p className="text-gray-800 leading-loose mb-4">
+                Temos cultos às quartas e domingos!
+
+                Quarta - 19:00 (Culto de Oração)
+                Domingo - 18:00 (Culto de Clamor)
+              </p>
             </div>
           </div>
         </div>
