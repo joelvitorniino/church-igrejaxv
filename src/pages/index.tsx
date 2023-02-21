@@ -8,9 +8,8 @@ import Link from "next/link";
 
 const compliments = [
   "Bem vindo ao Site da Igreja XV de Novembro!",
-  "Abaixo terá fotos da Igreja, caso visitantes estejam interessados!",
   "Siga nossas redes sociais abaixo:",
-  "Obrigado por ler até o fim! Visite nossa igreja, as informações sobre a localidade estarão na aba sobre!"
+  "Obrigado por ler até o fim! Visite nossa igreja, as informações sobre a localidade e os horários dos cultos estarão na aba sobre!"
 ]
 
 export default function Home() {
