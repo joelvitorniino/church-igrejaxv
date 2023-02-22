@@ -46,7 +46,7 @@ export default function Navbar() {
 
                 <li className="lg:mr-[1.3em] max-sm:-mr-2 iphone:-mr-1">
                 <Link
-                    href="/"
+                    href="/request_prayer"
                     className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
                 >
                 Oração
