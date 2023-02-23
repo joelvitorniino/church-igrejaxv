@@ -13,7 +13,7 @@ export default function Donation() {
               </p>
           </span>
 
-          <span className="inline-block m-1">
+          <span className="lg:flex md:flex sm:flex iphone:inline-block m-1">
             <CiBank size={65} className="inline ml-1" />
               <p className="inline ml-2 font-semibold hover:font-bold mt-6">
                 Agência 2787, Conta-Corrente: 007100-5, CNPJ: 34.164.376/0001-53, Banco: Bradesco 
