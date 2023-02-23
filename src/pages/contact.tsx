@@ -26,8 +26,8 @@ export default function Contact() {
           <span className="flex m-1">
             <FaInstagram size={45} className="inline lg:-ml-2 sm:-ml-2 iphone:w-16" />
             <Link href="https://www.instagram.com/igrejaxv/" target="_blank">
-              <p className="inline ml-2 lg:-ml-1 sm:-ml-1 iphone:-ml-1 font-semibold hover:font-bold">
-                Igreja XV de Novembro - <span className="lg:ml-0 sm:ml-0 iphone:ml-2">Instagram</span>
+              <p className="inline ml-2 lg:-ml-1 sm:-ml-1 iphone:-mr-3 lg:whitespace-nowrap md:whitespace-nowrap sm:whitespace-nowrap font-semibold hover:font-bold">
+                Igreja XV de Novembro - Instagram
               </p>
             </Link>
           </span>
@@ -35,8 +35,8 @@ export default function Contact() {
           <span className="flex m-1">
             <FaYoutube size={45} className="inline lg:-ml-2 sm:-ml-2 iphone:w-16" />
             <Link href="https://www.youtube.com/@IgrejaXV" target="_blank">
-              <p className="inline ml-2 lg:-ml-1 sm:-ml-1 iphone:-ml-1 font-semibold hover:font-bold">
-                Igreja XV de Novembro - <span className="lg:ml-0 sm:ml-0 iphone:ml-2">Youtube</span>
+              <p className="inline ml-2 lg:-ml-1 sm:-ml-1 iphone:-mr-2 lg:whitespace-nowrap md:whitespace-nowrap sm:whitespace-nowrap font-semibold hover:font-bold">
+                Igreja XV de Novembro - Youtube
               </p>
             </Link>
           </span>
@@ -46,8 +46,8 @@ export default function Contact() {
           <span className="flex m-1">
             <FaWhatsapp size={45} className="inline" />
             <Link href="https://wa.me/+5521975538121">
-                <p className="inline ml-2 font-semibold hover:font-bold relative top-2">
-                    Whatsapp do Pastor <span className="lg:ml-0 sm:ml-0 iphone:ml-2">Gilberto.</span>
+                <p className="inline ml-2 font-semibold hover:font-bold relative lg:whitespace-nowrap md:whitespace-nowrap sm:whitespace-nowrap top-2">
+                    Whatsapp do Pastor Gilberto.
                 </p>
             </Link>
           </span>
