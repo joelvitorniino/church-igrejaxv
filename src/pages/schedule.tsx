@@ -27,7 +27,7 @@ export default function Schedule() {
                     </p>
 
                     <p className="font-semibold hover:font-bold">
-                        Documentos necessários: Comprovante de Residência
+                        Documentos necessários: Identidade e Comprovante de Residência
                     </p>
 
                     <p className="font-semibold hover:font-bold">
