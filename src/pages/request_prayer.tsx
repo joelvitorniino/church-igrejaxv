@@ -1,14 +1,11 @@
 import axios from 'axios';
 import { useState } from 'react';
-import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import EmailSent from './components/EmailSent';
 
 export default function RequestPrayer() {
   const [name, setName] = useState("");
   const [requestPrayer, setRequestPrayer] = useState("");
-
-  const router = useRouter();
 
   const request_prayer = () => {
     axios.post('/api/prayer', {
@@ -19,9 +16,7 @@ export default function RequestPrayer() {
         toast.success('Email enviado com sucesso!');
       })
       .catch(e => {
-        router.push({
-          pathname: '/'
-        })
+        toast.error("Não foi possível efetuar o envio do e-mail, tente novamente mais tarde!");
       });
   };
 
