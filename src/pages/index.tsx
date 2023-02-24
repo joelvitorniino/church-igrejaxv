@@ -19,6 +19,11 @@ export default function Home() {
         <title>Igreja XV de Novembro</title>
       </Head>
 
+      <meta property="og:url" content="https://igrejaxv.org.br" />
+      <meta property="og:title" content="Igreja XV de Novembro" />
+      <meta property="og:image" content="/images/church_xv.svg" />
+      <meta property="og:description" content="Site da Igreja XV de Novembro, feito para facilitar a visibilidade da Igreja em guadalupe!" />
+
       <h1 className="text-3xl font-base flex items-center justify-center relative lg:-top-[15rem] xl:-top-[18rem] xl:-ml-5 max-md:-top-[15rem] max-sm:-top-[14rem] iphone:-top-[6.5rem] iphone:-mr-[7rem]">Igreja XV de Novembro</h1>
 
       <div className="flex flex-col items-center mb-10">
