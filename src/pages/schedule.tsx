@@ -1,8 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Schedule() {
     return (
         <div className="bg-gray-300 p-8 min-h-screen">
+        <Head>
+            <title>Página De Agenda</title>
+        </Head>
+
             <h1 className="text-3xl font-bold">Agenda da Igreja:</h1>
 
             <div className="mt-4">
