@@ -1,9 +1,14 @@
+import Head from "next/head";
 import PixIcon from "./components/PixIcon";
 import { CiBank } from 'react-icons/ci';
 
 export default function Donation() {
     return (
         <div className="bg-gray-300 p-8 min-h-screen">
+         <Head>
+          <title>Página de Doação</title>
+        </Head>
+
         <h1 className="text-3xl font-bold">Pix da Igreja:</h1>
         <div className="mt-4">
           <span className="inline-block m-1">
