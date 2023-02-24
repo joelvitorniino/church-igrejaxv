@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import EmailSent from './components/EmailSent';
+import Head from 'next/head';
 
 export default function RequestPrayer() {
   const [name, setName] = useState("");
@@ -22,6 +23,10 @@ export default function RequestPrayer() {
 
   return (
     <div className="bg-gray-100 min-h-screen py-8">
+      <Head>
+        <title>Página de Pedido de Oração</title>
+      </Head>
+      
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-4 lg:text-center">Pedido de Oração</h2>
         <form className="max-w-xl mx-auto">
