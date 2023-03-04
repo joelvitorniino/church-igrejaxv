@@ -40,10 +40,11 @@ export default function About() {
               </h1>
 
               <p className="text-gray-800 leading-loose mb-4">
-                Temos cultos às quartas e domingos!
-
-                Quarta - 19:00 (Culto de Oração)
-                Domingo - 18:00 (Culto de Clamor)
+                Quarta do Clamor - 19:00
+                <hr />
+                Domingo da Unidade - 10:30
+                <hr />
+                Celebração a noite (Domingo) - 18:00 
               </p>
             </div>
           </div>
