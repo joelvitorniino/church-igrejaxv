@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100">
       <Head>
         <title>Página Sobre</title>
       </Head>
@@ -46,6 +46,14 @@ export default function About() {
                 <hr />
                 Celebração a noite (Domingo) - 18:00 
               </p>
+
+              <h1 className="text-3xl md:text-4xl font-bold mb-4 whitespace-nowrap">
+                Fotos da Inscrição do Projeto Uma Nova História:
+              </h1>
+
+              <Image src="/images/image_subscribe.jpeg" width="500" height="500" alt="Inscrição do Projeto uma Nova História" />
+              <Image src="/images/image_subscribe2.jpeg" width="500" height="500" alt="Inscrição do Projeto uma Nova História" />
+
             </div>
           </div>
         </div>
