@@ -33,6 +33,12 @@ export default function Schedule() {
                     <p className="font-semibold hover:font-bold">
                         Responsável pela inscrição: Pr. Carlos Gilberto Nóbrega.
                     </p>
+
+                    <p className="font-semibold text-blue-600 hover:font-bold">
+                        Segue abaixo o calendário de março:
+                    </p>
+
+                    <Image src="/images/schedule.jpeg" width="325" height="325" className="iphone:w-96 iphone:h-96" alt="Agenda do Mês de Março" />
                 </span>
             </div>
         </div>
