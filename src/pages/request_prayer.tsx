@@ -39,6 +39,9 @@ export default function RequestPrayer() {
               id="nome"
               type="text"
               placeholder="Seu nome completo"
+              required
+              minLength={9}
+              maxLength={150}
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -52,6 +55,9 @@ export default function RequestPrayer() {
               id="motivo"
               placeholder="Descreva o motivo da sua oração"
               value={requestPrayer}
+              required
+              minLength={6}
+              maxLength={150}
               onChange={(e) => setRequestPrayer(e.target.value)}
             ></textarea>
           </div>
