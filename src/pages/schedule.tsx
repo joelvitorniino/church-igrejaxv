@@ -13,32 +13,18 @@ export default function Schedule() {
             <div className="mt-4">
                 <span className="inline-block mt-1">
                     <p className="inline font-semibold hover:font-bold">
-                        Em março teremos um projeto chamado Uma Nova História, que consistirá em uma série de cursos profissionalizantes, segue abaixo a agenda:
+                        Estamos com um projeto chamado Uma Nova História, que consistirá em uma série de cursos profissionalizantes, segue abaixo a agenda:
                     </p>
 
                     <Image src="/images/courses.jpg" width="250" height="250" alt="Cursos Uma nova História" />
 
+                    <br />
+                    
                     <p className="inline font-semibold hover:font-bold">
-                        Local da Inscrição: Igreja Batista XV de Novembro, Rua Argemiro Hungria Machado 14, Guadalupe.
+                        No início de abril essa será a nossa agenda:
                     </p>
 
-                    <p className="font-semibold hover:font-bold">
-                        Data: 28/02 às 08:30
-                    </p>
-
-                    <p className="font-semibold hover:font-bold">
-                        Documentos necessários: Identidade e Comprovante de Residência
-                    </p>
-
-                    <p className="font-semibold hover:font-bold">
-                        Responsável pela inscrição: Pr. Carlos Gilberto Nóbrega.
-                    </p>
-
-                    <p className="font-semibold text-blue-600 hover:font-bold">
-                        Segue abaixo o calendário de março:
-                    </p>
-
-                    <Image src="/images/schedule.jpeg" width="325" height="325" className="iphone:w-96 iphone:h-96" alt="Agenda do Mês de Março" />
+                    <Image src="/images/saint_week.jpg" width="250" height="250" alt="Semana Santa" />
                 </span>
             </div>
         </div>
